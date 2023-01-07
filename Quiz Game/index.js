@@ -11,11 +11,6 @@ questionContainers.forEach((container, index) => {
       // Check if the answer is correct
       if (event.target.getAttribute('data-correct') === 'true') {
         numCorrect++;
-        // Display the "Correct!" message
-        alert('Correct answer!');
-      } else {
-        // Handle incorrect answer (e.g. display an alert)
-        alert('Incorrect answer!');
       }
 
       // Move to the next question
